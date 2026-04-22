@@ -1,26 +1,20 @@
 /*
- * ============================================================
- *   LIBRARY BOOK MANAGEMENT SYSTEM
- *   Data Structure: Singly Linked List
- *   Language: C
- * ============================================================
- *
- *  Features:
- *    1. Add a new book
- *    2. Delete a book by ISBN
- *    3. Search a book by ISBN
- *    4. Search books by author
- *    5. Display all books
- *    6. Update book details
- *    7. Issue a book (mark as borrowed)
- *    8. Return a book (mark as available)
- *    9. Display total book count
- *   10. Exit
+  Features:
+  1. Add a new book
+  2. Delete a book by ISBN
+  3. Search a book by ISBN
+  4. Search books by author
+  5. Display all books
+  6. Update book details
+  7. Issue a book (mark as borrowed)
+  8. Return a book (mark as available)
+  9. Display total book count
+  10. Exit
  */
 
-//#include <stdio.h>
-//#include <stdlib.h>
-//#include <string.h>
+#include <stdio.h>
+#include <stdlib.h>
+#include <string.h>
 
 //Constants 
 #define MAX_TITLE   100
